@@ -7,8 +7,10 @@ const Notfound404 = () => {
       <div className="row">
         <h4 className="title">404 NOT FOUND</h4>
       </div>
-      <div className="row">
-        <img src={img404} alt="" className="col-md-6 col-sm-12" />
+      <div className="row content">
+        <div className="col-sm-12 col-md-6">
+          <img src={img404} alt="" />
+        </div>
         <div className="col-md-6 col-sm-12">
           <h1>I have bad news for you</h1>
           <p className="col-7">
@@ -20,7 +22,9 @@ const Notfound404 = () => {
       </div>
 
       <footer>
-        created by <strong>ovalencia</strong> - devChallenges.io
+        <label htmlFor="">
+          created by <strong>ovalencia</strong> - devChallenges.io
+        </label>
       </footer>
     </div>
   );
